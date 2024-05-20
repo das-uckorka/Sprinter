@@ -88,19 +88,10 @@ void moving_update(char cmdMove,
                    unsigned int cmdMovePower,
                    Snake* player){
   switch (cmdMove){
-      case move_up:
-        player->move_up(cmdMovePower);
-        break;
-      case move_down:
-        player->move_down(cmdMovePower);
-        break;
-      case move_left:
-        player->move_left(cmdMovePower);
-        break;
-      case move_right:
-        player->move_right(cmdMovePower);
-        break;
-      default:
-        break;
+      case move_up: player->move_up(cmdMovePower); break;
+      case move_down: player->move_down(cmdMovePower); break;
+      case move_left: player->move_left(cmdMovePower); break;
+      case move_right: player->move_right(cmdMovePower); break;
+      default: break;
   }
 }
