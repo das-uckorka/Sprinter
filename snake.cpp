@@ -3,9 +3,12 @@
 
 std::string START = "";
 
+
+// Here you can redact your terminal size
 const int MAX_HEIGHT = 23;
 const int MAX_LENGTH = 50;
 
+// Move characters
 const char move_up    = 'w';
 const char move_down  = 's';
 const char move_left  = 'a';
