@@ -1,4 +1,21 @@
+Shortcuts:
+w - move up
+a - move left
+s - move down
+d - move right
+
+After character you can write down the power of your move:
+d5 - move right 5 times
+w1 - move up 1 time
+s10 - move down 10 times
+
+The default power of move is 1
+
+
+Example of the program:
+
 Frame: 15. x: 7 y: 8
+
 --------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
@@ -22,4 +39,4 @@ Frame: 15. x: 7 y: 8
 --------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
-Your move: 
+Your move: d3
